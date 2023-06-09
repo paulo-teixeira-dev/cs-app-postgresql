@@ -38,7 +38,7 @@ Navege até Servers > Register > Server para preecher os campos necessarios de c
 | Connection > Port | 5432 |
 | Connection > Maintenance database | db_cs |
 | Connection > Username | localdev |
-| Connection > Password | localdev |
+| Connection > Password | localdev@123 |
 
 ### Portas
 | Serviço  | Porta |
