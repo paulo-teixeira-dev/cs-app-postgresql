@@ -5,17 +5,20 @@
 - PostgreSQL
 - PgAdmin
 
-### Criar diretório base de dados
+### Configurando ambiente e construindo containers
 
-No diretório raiz execute o comando para criar o diretorio de volumes.
+Criando o diretório de volumes do PostgreSQL.
 
 ```
 mkdir database database/postgre-sql
 ```
 
-### Construindo container
+Criando rede local da base de dados.
+```
+sudo docker network create cs-network
+```
 
-Execute o comando para criar e executar containers com base nas configurações definidas no arquivo docker-compose.yml.
+Criando containers
 
 ```
 sudo docker-compose up -d
@@ -30,12 +33,12 @@ Navege até Servers > Register > Server para preecher os campos necessarios de c
 
 | Campo  | Valor |
 | --- | --- |
-| General > Name | cs-postgre-sql | 
-| Connection > Host name/address | cs-postgre-sql |
+| General > Name | cs-postgresql | 
+| Connection > Host name/address | cs-postgresql |
 | Connection > Port | 5432 |
-| Connection > Maintenance database | cs_db |
+| Connection > Maintenance database | db_cs |
 | Connection > Username | localdev |
-| Connection > Password | @localdev |
+| Connection > Password | localdev |
 
 ### Portas
 | Serviço  | Porta |
