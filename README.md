@@ -24,7 +24,7 @@ Criando containers
 sudo docker compose up -d
 ```
 
-Após criado com sucesso, navegue até `http://localhost:3400/` e efetue o login com usuário `localdev@cs.com.br`e senha `@localdev`
+Após criado com sucesso, navegue até `http://localhost:3400/` e efetue o login com usuário `localdev@example.com`e senha `localdev`
 
 
 ### Registrando o servidor da base de dados
