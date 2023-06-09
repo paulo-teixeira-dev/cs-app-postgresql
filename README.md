@@ -21,7 +21,7 @@ sudo docker network create cs-network
 Criando containers
 
 ```
-sudo docker-compose up -d
+sudo docker compose up -d
 ```
 
 Após criado com sucesso, navegue até `http://localhost:3400/` e efetue o login com usuário `localdev@cs.com.br`e senha `@localdev`
