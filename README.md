@@ -48,4 +48,4 @@ Navege até Servers > Register > Server para preecher os campos necessarios de c
 
 ## 🚀 Sobre o desenvolvedor
 
-Este projeto é desenvolvido e mantido por Paulo Teixeira.
+Este projeto é desenvolvido e mantido por [Paulo Teixeira](https://www.github.com/paulo-teixeira-dev)
